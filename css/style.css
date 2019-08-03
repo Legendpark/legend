@@ -1,0 +1,349 @@
+
+
+/*  Fonts   */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Oswald:400,700|Roboto:400,400i,700,700i&display=swap');
+
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  background: url("../images/bg.jpeg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* FOR NAV ITEMS ARRANGEMENT */
+.Oswald {
+	font-family: 'Oswald', sans-serif;
+  word-spacing: .2px;
+	font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "'Oswald', sans-serif;", cursive;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  width: 3.5rem;
+  margin: 0;
+  padding: 0;
+}
+.logoText{
+ font-family: "Oswald","sans-serif";
+}
+.bg-color {
+  background: #fcc133;
+}
+.nav-link,
+.navbar-toggler {
+  color: #292930;
+  font-weight: 700;
+  margin: 2px;
+}
+.nav-link:hover, .active {
+  background: #292930;
+  color:#fcc133;
+  text-shadow: none;
+}
+.swiper-container {
+  width: 100%;
+  padding-left: 5px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 360px;
+  margin-top: 10px;
+}
+
+.color-rhd {
+  width: 100%;
+  height: 65px;
+  background: #fcc133;
+  margin: 20px 0;
+}
+
+.hot-deals {
+  color: #e12b38;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.4rem;
+  padding-left: 20px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+.hd-png {
+  height: 55px;
+  padding: 0 0 5px 0;
+}
+
+
+.hot-product {
+  overflow: hidden;
+}
+.hot-product .background{
+  background : white;
+  text-align: center;
+  border-radius: 5%;
+  box-shadow: #292930 4px 8px 17px;
+  margin-right: 15px;
+}
+.hot-product .single-product {
+	width: 85%;
+  margin: 5%;
+  height: auto;
+  border-radius: 7%;
+  text-align: center;
+}
+.hot-product .seal {
+  position: absolute;
+  top: 6%;
+  transform: rotate(330deg);
+  font-size: 0.6rem;
+  left: 12%;
+  background: #fcc133;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #292930;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.product-info {
+	margin-bottom: 40%;
+	text-align: center;
+	padding: 7% 0;
+	background: #eeeeee;
+	border-bottom-left-radius: 20%;
+}
+.shirt-name {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.col-6 a{
+  color: #292930;
+  text-decoration: none;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: #fcc133;
+}
+.price {
+  display: block;
+  color: #3eb650;;
+  font-weight: 700;
+}
+.btn:hover{
+  color: #e12b38;
+}
+
+.sidesinglepro{
+  width: 100%;
+  background: #292930;
+  border:5px solid #fcc133;
+  padding: 5px;
+  text-align: center;
+}
+.sidesinglepro .sideImg {
+  width: 100%;
+}
+.sidesinglepro .sideproductinfo {
+	font-family: "Oswald","Sans-serif";
+	text-align: center;
+	margin: 25px 0;
+	text-transform: capitalize;
+	color: #e12b38;
+	font-weight: bold;
+	text-shadow: #fcc133 2px 1px 1px;
+	letter-spacing: 1.7px;
+}
+.sidesinglepro a{
+  text-decoration: none;
+}
+/* SPECIAL DEALS */
+
+.color-rsd {
+  width: 100%;
+  height: 65px;
+  background: #3eb650;
+  margin: 20px 0;
+}
+.color-rsd .sd-png{
+  width: 10%;
+}
+
+.hot-product .green-seal {
+  position: absolute;
+  top: 6%;
+  transform: rotate(330deg);
+  font-size: 0.6rem;
+  left: 12%;
+  background: #e12b38;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #fff;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.promoText {
+	color: #e12b38;
+	font-size: 35px;
+	font-family: Oswald;
+	letter-spacing: 0.5px;
+	padding-left: 20px;
+	font-weight: bold;
+	text-shadow: #292930 0px 2px 1px;
+}
+.promoText .park{
+color: #3eb650;
+}
+.fb-page{
+  border: 5px double black;
+  padding: 5px;
+  box-shadow: #292930 10px 1px 4px;
+}
+
+
+
+                          /*
+
+
+                          .eid .eid-png {
+                            height: 60px;
+                            border-radius: 50%;
+                            position: relative;
+                            bottom: 4px;
+                          }
+                          .eid .eid-special {
+                            padding-left: 20px;
+                            padding-top: 5px;
+                            color: #fff;
+                            font-size: 2.4rem;
+                          }
+
+
+                          */
+
+
+
+.footer-bg {
+  background: #292930;
+  width: 100%;
+  height: 70px;
+  color: #fff;
+}
+.bottomPad{
+  padding-top: 15px;
+}
+.design-by{
+  font-size: 15px;
+}
+.design-by .designer{
+  color: gray;
+}
+.design-by a:hover {
+  text-decoration: none;
+}
+.social {
+  text-align: end;
+}
+.fab {
+  color: #fff;
+  padding: 0 1.3%;
+  font-size: 1.3rem;
+  transition: all 1s;
+}
+.fab:hover {
+  background: #fcc133;
+  padding: 0.7rem;
+  border-radius: 50%;
+  color: #292930;
+  transform: rotate(360deg);
+}
+@media (max-width: 768px) {
+  .swiper-container {
+    width: 100%;
+  }
+  .swiper-slide {
+    width: 100%;
+    height: 350px;
+  }
+  .swiper-slide .slider-text {
+    font-size: 1rem;
+  }
+  .eid .eid-special {
+    font-size: 1.4rem;
+  }
+  .eid .eid-png {
+    bottom: 0;
+  }
+  .hot-deals {
+    font-size: 1.4rem;
+    padding: 0;
+  }
+  .eid-product .seal {
+    top: 4%;
+  }
+  .footer-bg {
+    font-size: 0.7rem;
+    padding: 5px;
+    height: 50px;
+  }
+  .social {
+    padding: 2%;
+  }
+  .fab {
+    padding: 0 2%;
+    font-size: 0.5rem;
+  }
+  .fab:hover {
+    padding: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .swiper-slide{
+    height: 100px;
+  }
+  .color-rhd {
+    margin: 10px 0;
+    padding: 2px 0;
+  }
+  .logo{
+    width: 2.5rem;
+  }
+  .logoText{
+    font-size: 15px;
+  }
+  .color-rsd .sd-png{
+    width: 30%;
+  }
+  .promoText{
+    font-size: 30px;
+  }
+  .design-by{
+    font-size: 8px;
+  }
+  .socialParent{
+    font-size: 4px;
+  }
+.copyright{
+  font-size: 7px;
+}
+}
