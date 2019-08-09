@@ -86,8 +86,8 @@ a {
   font-weight: bold;
 }
 .hd-png {
-  height: 55px;
-  padding: 0 0 5px 0;
+	height: 80px;
+	padding: 0 0 17px 0;
 }
 
 
@@ -183,8 +183,11 @@ a {
   background: #3eb650;
   margin: 20px 0;
 }
-.color-rsd .sd-png{
-  width: 10%;
+.color-rsd .sd-png {
+	width: 7%;
+	position: relative;
+	height: 60px;
+	top: -9px;
 }
 
 .hot-product .green-seal {
@@ -325,14 +328,18 @@ color: #3eb650;
     margin: 10px 0;
     padding: 2px 0;
   }
+  .color-rhd .hd-png{
+    height: 77px;
+  }
   .logo{
     width: 2.5rem;
   }
   .logoText{
     font-size: 15px;
   }
-  .color-rsd .sd-png{
-    width: 30%;
+  .color-rsd .sd-png {
+    width: 22%;
+    top: 2px;
   }
   .promoText{
     font-size: 30px;
