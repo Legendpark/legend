@@ -151,7 +151,10 @@ a {
 }
 .price {
   display: block;
-  color: #3eb650;;
+  color: white;
+  background: #292930;
+  display: block;
+  font-size: 25px;
   font-weight: 700;
 }
 .btn:hover{
