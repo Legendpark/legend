@@ -12,10 +12,11 @@ html {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  background: url("../images/bg.jpeg");
+  background: url("../images/bg.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
+  overflow-x: hidden;
 }
 /* FOR NAV ITEMS ARRANGEMENT */
 .Oswald {
@@ -98,8 +99,8 @@ a {
 	background: white;
 	text-align: center;
 	border-radius: 5%;
-	box-shadow: #292930 4px 8px 17px;
-	width: 170px;
+	box-shadow: #292930 0px 6px 5px;
+	width: 158px;
 	height: 370px;
 	margin: 0 15px 30px 0;
 }
@@ -128,8 +129,8 @@ a {
 	text-align: center;
 	padding: 7% 0;
 	background: #eeeeee;
-	border-bottom-left-radius: 20%;
-	width: 170px;
+  border-bottom-left-radius: 20%;
+	width: 158px;
 	height: 187px;
 }
 .shirt-name {
@@ -137,6 +138,7 @@ a {
 	font-weight: bold;
   font-size: 20px;
   margin-bottom: 0;
+  padding: 5px;
 }
 .col-6 a{
   color: #292930;
@@ -249,6 +251,9 @@ a {
   transform: rotate(360deg);
 }
 @media (max-width: 768px) {
+  .shirt-name{
+    font-size: 15px;
+  }
   .swiper-container {
     width: 100%;
   }
@@ -266,9 +271,13 @@ a {
   .eid-product .seal {
     top: 4%;
   }
-  .hot-product .background{
+  .background{
     width: 145px;
-height: 360px;
+height: 359px;
+  }
+  .product-info{
+    width: 145px;
+    height: 190px;
   }
   .hot-product .background .product-info{
     width: 145px;
@@ -324,9 +333,9 @@ height: 179px;
   padding: 10px;
 }
 .singlePageImg{
- margin: 20px 20px 70px 20px;
  width:450px;
  transition: width 2s;
+ margin-bottom: 30px;
 }
 .singlePageImg:hover{
   width: 120%;
@@ -340,6 +349,7 @@ height: 179px;
 }
 .proDetails{
   font-family: "Oswald","Roboto";
+  padding: 15px;
 }
 
 .proBack{
@@ -356,17 +366,19 @@ height: 179px;
 .howto .howtitle{
   padding: 5px;
   font-family: "Oswald","Roboto";
+  border-bottom: 4px solid gray;
 }
 .howto .order{
   text-align: center;
   padding: 30px;
   
 }
-}
+
 .similar-pro{
   font-family: "Oswald","Roboto";
-  font-size: 30px;
-  margin: 0 0 0 200px;
+  font-size: 27px;
+  padding: 10px;
+  margin-left: 140px;
 }
 
 
@@ -395,8 +407,8 @@ height: 179px;
     width: 22%;
     top: 2px;
   }
-  .promoText{
-    font-size: 30px;
+  .similar-pro{
+    margin-left: 0;
   }
   .design-by{
     font-size: 8px;
