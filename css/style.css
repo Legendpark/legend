@@ -253,6 +253,18 @@ a {
   color: #292930;
   transform: rotate(360deg);
 }
+.fas{
+  font-size: 40px;
+  margin: 15px;
+}
+.fact{
+  font-family: "Oswald","Roboto";
+  border-bottom: 4px solid #292930;
+}
+.location{
+font-family: "Oswald","Roboto";
+margin: 25px;
+}
 @media (max-width: 768px) {
   .shirt-name{
     font-size: 15px;
@@ -276,15 +288,18 @@ a {
   }
   .background{
     width: 145px;
-height: 359px;
+height: 360px;
   }
   .product-info{
     width: 145px;
-    height: 190px;
+    height: 180px;
   }
   .hot-product .background .product-info{
     width: 145px;
 height: 179px;
+  }
+  .fas{
+    font-size: 40px;
   }
   .footer-bg {
     font-size: 0.7rem;
@@ -303,6 +318,24 @@ height: 179px;
   }
 }
 
+/*      ABOUT PAGE      */
+
+.aboutPage{
+background: #ccc;
+width: 100%;
+text-align: center;
+}
+.aboutUs{
+color: #292930;
+font-family: "Oswald","Roboto";
+font-size: 40px;
+border-bottom: 4px solid #aaa;
+margin: 60px;
+}
+.aboutText{
+  padding: 50px;
+
+}
 
 
 
@@ -413,12 +446,19 @@ height: 179px;
   .similar-pro{
     margin-left: 0;
   }
+  .aboutUs{
+    margin: 20px;
+  }
+  .mobile-font{
+    font-size: 70%;
+  }
   .design-by{
     font-size: 8px;
   }
   .socialParent{
     font-size: 4px;
   }
+
 .copyright{
   font-size: 7px;
 }
