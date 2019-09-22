@@ -1,9 +1,6 @@
-
-
 /*  Fonts   */
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Oswald:400,700|Roboto:400,400i,700,700i&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Oswald:400,700|Roboto:400,400i,700,700i&display=swap");
 
 body,
 html {
@@ -20,9 +17,9 @@ html {
 }
 /* FOR NAV ITEMS ARRANGEMENT */
 .Oswald {
-	font-family: 'Oswald', sans-serif;
-  word-spacing: .2px;
-	font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  word-spacing: 0.2px;
+  font-size: 20px;
   font-weight: 700;
   text-align: center;
 }
@@ -42,8 +39,8 @@ a {
   margin: 0;
   padding: 0;
 }
-.logoText{
- font-family: "Oswald","sans-serif";
+.logoText {
+  font-family: "Oswald", "sans-serif";
 }
 .bg-color {
   background: #fcc133;
@@ -54,9 +51,10 @@ a {
   font-weight: 700;
   margin: 2px;
 }
-.nav-link:hover, .active {
+.nav-link:hover,
+.active {
   background: #292930;
-  color:#fcc133;
+  color: #fcc133;
   text-shadow: none;
 }
 .swiper-container {
@@ -80,32 +78,31 @@ a {
 
 .hot-deals {
   color: #e12b38;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2.4rem;
   padding-left: 20px;
   padding-top: 5px;
   font-weight: bold;
 }
 .hd-png {
-	height: 80px;
-	padding: 0 0 17px 0;
+  height: 80px;
+  padding: 0 0 17px 0;
 }
-
 
 .hot-product {
   overflow: hidden;
 }
 .background {
-	background: white;
-	text-align: center;
-	border-radius: 5%;
-	box-shadow: #292930 0px 6px 5px;
-	width: 158px;
-	height: 370px;
-	margin: 0 15px 30px 0;
+  background: white;
+  text-align: center;
+  border-radius: 5%;
+  box-shadow: #292930 0px 6px 5px;
+  width: 158px;
+  height: 370px;
+  margin: 0 15px 30px 0;
 }
 .single-product {
-	width: 126px;
+  width: 126px;
   margin: 5%;
   height: 166px;
   border-radius: 7%;
@@ -125,22 +122,22 @@ a {
   letter-spacing: 1px;
 }
 .product-info {
-	margin-bottom: 40%;
-	text-align: center;
-	padding: 7% 0;
-	background: #eeeeee;
+  margin-bottom: 40%;
+  text-align: center;
+  padding: 7% 0;
+  background: #eeeeee;
   border-bottom-left-radius: 20%;
-	width: 158px;
-	height: 187px;
+  width: 158px;
+  height: 187px;
 }
 .shirt-name {
-	font-family: 'Lato', sans-serif;
-	font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
   font-size: 20px;
   margin-bottom: 0;
   padding: 5px;
 }
-.col-6 a{
+.col-6 a {
   color: #292930;
   text-decoration: none;
 }
@@ -157,14 +154,14 @@ a {
   font-size: 25px;
   font-weight: 700;
 }
-.btn:hover{
+.btn:hover {
   color: #e12b38;
 }
 
-.sidesinglepro{
+.sidesinglepro {
   width: 100%;
   background: #292930;
-  border:5px solid #fcc133;
+  border: 5px solid #fcc133;
   padding: 5px;
   text-align: center;
 }
@@ -172,16 +169,16 @@ a {
   width: 100%;
 }
 .sidesinglepro .sideproductinfo {
-	font-family: "Oswald","Sans-serif";
-	text-align: center;
-	margin: 25px 0;
-	text-transform: capitalize;
-	color: #e12b38;
-	font-weight: bold;
-	text-shadow: #fcc133 2px 1px 1px;
-	letter-spacing: 1.7px;
+  font-family: "Oswald", "Sans-serif";
+  text-align: center;
+  margin: 25px 0;
+  text-transform: capitalize;
+  color: #e12b38;
+  font-weight: bold;
+  text-shadow: #fcc133 2px 1px 1px;
+  letter-spacing: 1.7px;
 }
-.sidesinglepro a{
+.sidesinglepro a {
   text-decoration: none;
 }
 /* SPECIAL DEALS */
@@ -193,10 +190,10 @@ a {
   margin: 20px 0;
 }
 .color-rsd .sd-png {
-	width: 7%;
-	position: relative;
-	height: 60px;
-	top: -9px;
+  width: 7%;
+  position: relative;
+  height: 60px;
+  top: -9px;
 }
 
 .hot-product .green-seal {
@@ -213,7 +210,7 @@ a {
   letter-spacing: 1px;
 }
 
-.fb-page{
+.fb-page {
   border: 5px double black;
   padding: 5px;
   box-shadow: #292930 10px 1px 4px;
@@ -225,13 +222,13 @@ a {
   height: 70px;
   color: gray;
 }
-.bottomPad{
+.bottomPad {
   padding-top: 15px;
 }
-.design-by{
+.design-by {
   font-size: 15px;
 }
-.design-by .designer{
+.design-by .designer {
   color: gray;
 }
 .design-by a:hover {
@@ -253,20 +250,20 @@ a {
   color: #292930;
   transform: rotate(360deg);
 }
-.fas{
+.fas {
   font-size: 40px;
   margin: 15px;
 }
-.fact{
-  font-family: "Oswald","Roboto";
+.fact {
+  font-family: "Oswald", "Roboto";
   border-bottom: 4px solid #292930;
 }
-.location{
-font-family: "Oswald","Roboto";
-margin: 25px;
+.location {
+  font-family: "Oswald", "Roboto";
+  margin: 25px;
 }
 @media (max-width: 768px) {
-  .shirt-name{
+  .shirt-name {
     font-size: 15px;
   }
   .swiper-container {
@@ -286,19 +283,19 @@ margin: 25px;
   .eid-product .seal {
     top: 4%;
   }
-  .background{
+  .background {
     width: 145px;
-height: 360px;
+    height: 360px;
   }
-  .product-info{
+  .product-info {
     width: 145px;
     height: 180px;
   }
-  .hot-product .background .product-info{
+  .hot-product .background .product-info {
     width: 145px;
-height: 179px;
+    height: 179px;
   }
-  .fas{
+  .fas {
     font-size: 40px;
   }
   .footer-bg {
@@ -320,75 +317,69 @@ height: 179px;
 
 /*      ABOUT PAGE      */
 
-.aboutPage{
-background: #ccc;
-width: 100%;
-text-align: center;
+.aboutPage {
+  background: #ccc;
+  width: 100%;
+  text-align: center;
 }
-.aboutUs{
-color: #292930;
-font-family: "Oswald","Roboto";
-font-size: 40px;
-border-bottom: 4px solid #aaa;
-margin: 60px;
+.aboutUs {
+  color: #292930;
+  font-family: "Oswald", "Roboto";
+  font-size: 40px;
+  border-bottom: 4px solid #aaa;
+  margin: 60px;
 }
-.aboutText{
+.aboutText {
   padding: 50px;
-
 }
-
-
-
 
 /* ERROR PAGE */
 
-
-.error{
+.error {
   margin: 200px 250px;
   min-height: 100px;
-  font-family: "Oswald","Roboto";
+  font-family: "Oswald", "Roboto";
   font-size: 70px;
   color: #fcc133;
   text-shadow: #292930 2px 2px 3px;
   font-weight: bold;
 }
 
-
 /* PRODUCT PAGE INFO */
 
-.center{
+.center {
   text-align: center;
   margin: 50px 20px 20px 20px;
 }
-.title{
+.title {
   margin: 60px;
-  font-family: "Oswald","Roboto";
+  font-family: "Oswald", "Roboto";
   font-size: 40px;
   background: #292930;
   color: #fcc133;
   padding: 10px;
 }
-.singlePageImg{
- width:450px;
- transition: width 2s;
- margin-bottom: 30px;
+.singlePageImg {
+  width: 450px;
+  transition: width 2s;
+  margin-bottom: 30px;
 }
-.singlePageImg:hover{
+.singlePageImg:hover {
   width: 120%;
   z-index: 5;
 }
-.proID{
+.proID {
   text-align: center;
   width: 200px;
-  background:#fcc133;
+  background: #fcc133;
   margin: 0 auto;
 }
-.proDetails{
-  font-family: "Oswald","Roboto";
+.proDetails {
+  font-family: "Oswald", "Roboto";
   padding: 15px;
 }
 
-.proBack{
+.proBack {
   background: #dddddd;
   margin: 0 auto;
   padding: 30px;
@@ -397,69 +388,63 @@ margin: 60px;
   background: #292930;
   margin: 0 auto;
   color: #dddddd;
-  font-family: "Oswald","Roboto";
+  font-family: "Oswald", "Roboto";
 }
-.howto .howtitle{
+.howto .howtitle {
   padding: 5px;
-  font-family: "Oswald","Roboto";
+  font-family: "Oswald", "Roboto";
   border-bottom: 4px solid gray;
 }
-.howto .order{
+.howto .order {
   text-align: center;
   padding: 30px;
-  
 }
 
-.similar-pro{
-  font-family: "Oswald","Roboto";
+.similar-pro {
+  font-family: "Oswald", "Roboto";
   font-size: 27px;
   padding: 10px;
   margin-left: 140px;
 }
 
-
-
-
-
-
 @media only screen and (max-width: 600px) {
-  .swiper-slide{
+  .swiper-slide {
     height: 100px;
   }
   .color-rhd {
     margin: 10px 0;
     padding: 2px 0;
   }
-  .color-rhd .hd-png{
+  .color-rhd .hd-png {
     height: 77px;
   }
-  .logo{
+  .logo {
     width: 2.5rem;
   }
-  .logoText{
+  .logoText {
     font-size: 15px;
   }
   .color-rsd .sd-png {
     width: 22%;
     top: 2px;
   }
-  .similar-pro{
+  .similar-pro {
     margin-left: 0;
   }
-  .aboutUs{
+  .aboutUs {
     margin: 20px;
   }
-  .mobile-font{
+  .mobile-font {
     font-size: 70%;
   }
-  .design-by{
+  .design-by {
     font-size: 8px;
   }
-  .socialParent{
+  .socialParent {
     font-size: 4px;
   }
 
-.copyright{
-  font-size: 7px;
-}
+  .copyright {
+    font-size: 7px;
+  }
 }
